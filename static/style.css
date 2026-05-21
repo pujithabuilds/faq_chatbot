@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     background-color: #f2f2f2;
 }
 
@@ -11,8 +11,10 @@ body {
     border-radius: 10px;
 }
 
-h1 {
+.chat-header {
     text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 #chat-box {
@@ -20,7 +22,6 @@ h1 {
     overflow-y: auto;
     border: 1px solid #ccc;
     padding: 10px;
-    margin-bottom: 10px;
 }
 
 .user-message {
@@ -37,6 +38,7 @@ h1 {
 
 .input-area {
     display: flex;
+    margin-top: 10px;
 }
 
 input {

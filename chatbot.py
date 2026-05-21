@@ -8,7 +8,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # Download tokenizer
 nltk.download('punkt')
-nltk.download('punkt_tab')
 
 # Load FAQ data
 with open('faqs.json', 'r') as file:
